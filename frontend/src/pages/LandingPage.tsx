@@ -192,7 +192,7 @@ export const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-lg font-bold text-slate-900">1. Understand True Downside</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Clear maximum loss visibility in absolute Rupees (₹). Interactive payoff curves reveal exact break-even hurdles and tail liabilities before order placement.
+                See your maximum possible loss in actual Rupees (₹). Interactive charts show how much you could lose or earn, the price at which you break even, and the risks before placing a trade.
               </p>
               <div className="pt-2">
                 <NavLink
@@ -211,7 +211,7 @@ export const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-lg font-bold text-slate-900">2. Counter FOMO & Biases</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Structured behavioural checkpoints isolate emotional drivers: revenge trading, social media tip chasing, or risking capital needed for household essentials.
+                Simple behavioural checks help identify risky trading habits, such as trading to recover losses, blindly following social media tips, or using money needed for household expenses.
               </p>
               <div className="pt-2">
                 <NavLink
