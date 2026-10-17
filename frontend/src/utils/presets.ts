@@ -1,0 +1,73 @@
+import { TradeInput } from '../types';
+
+export const DEFAULT_TRADE_INPUT: TradeInput = {
+  underlying: 'NIFTY',
+  position_type: 'long_call',
+  spot_price: 22500,
+  strike_price: 22600,
+  premium: 150,
+  lot_size: 50,
+  num_lots: 1,
+  expiry_days: 7,
+  implied_volatility: 15,
+  risk_free_rate: 6.5,
+  brokerage: 20,
+  transaction_charges: 50,
+  slippage: 25,
+  available_capital: 100000,
+  max_acceptable_loss: 10000,
+};
+
+export const PRESET_NIFTY_LONG_CALL: TradeInput = {
+  underlying: 'NIFTY',
+  position_type: 'long_call',
+  spot_price: 22500,
+  strike_price: 22600,
+  premium: 150,
+  lot_size: 50,
+  num_lots: 2,
+  expiry_days: 7,
+  implied_volatility: 14.5,
+  risk_free_rate: 6.5,
+  brokerage: 40,
+  transaction_charges: 65,
+  slippage: 30,
+  available_capital: 150000,
+  max_acceptable_loss: 15000,
+};
+
+export const PRESET_BANKNIFTY_SHORT_PUT: TradeInput = {
+  underlying: 'BANKNIFTY',
+  position_type: 'short_put',
+  spot_price: 48200,
+  strike_price: 47500,
+  premium: 220,
+  lot_size: 15,
+  num_lots: 3,
+  expiry_days: 5,
+  implied_volatility: 18.2,
+  risk_free_rate: 6.5,
+  brokerage: 60,
+  transaction_charges: 90,
+  slippage: 45,
+  available_capital: 250000,
+  max_acceptable_loss: 20000,
+};
+
+export const PRESET_HIGH_RISK: TradeInput = {
+  underlying: 'NIFTY',
+  position_type: 'short_call',
+  spot_price: 22500,
+  strike_price: 22700,
+  premium: 65,
+  lot_size: 50,
+  num_lots: 10,
+  expiry_days: 2,
+  implied_volatility: 12.0,
+  risk_free_rate: 6.5,
+  brokerage: 200,
+  transaction_charges: 250,
+  slippage: 100,
+  available_capital: 100000,
+  max_acceptable_loss: 15000,
+};
